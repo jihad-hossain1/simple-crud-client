@@ -17,7 +17,7 @@ const Update = () => {
     })
       .then((res) => res.json())
       .then((data) => {
-        console.log(data);
+        // console.log(data);
         if (data.modifiedCount) {
           alert("User updated successfully");
           form.reset();
